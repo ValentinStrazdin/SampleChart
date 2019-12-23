@@ -18,7 +18,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        loadCourseProgress()
+        loadProgress()
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -26,13 +26,13 @@ class ViewController: UIViewController {
         initPlot()
     }
 
-    func loadCourseProgress() {
-        guard let testCourseProgressUrl = Bundle.main.url(forResource:"CourseProgress", withExtension:"json"),
-            let jsonData = try? Data(contentsOf: testCourseProgressUrl) else { return }
+    func loadProgress() {
+        guard let testProgressUrl = Bundle.main.url(forResource:"Progress", withExtension:"json"),
+            let jsonData = try? Data(contentsOf: testProgressUrl) else { return }
         print(String(decoding: jsonData, as: UTF8.self))
         do {
-            let response = try JSONDecoder().decode(Response<CourseProgress>.self, from: jsonData)
-            self.viewModel = PlotViewModel(courseProgress: response.data)
+            let response = try JSONDecoder().decode(Response<Progress>.self, from: jsonData)
+            self.viewModel = PlotViewModel(progress: response.data)
         }
         catch let err
         {

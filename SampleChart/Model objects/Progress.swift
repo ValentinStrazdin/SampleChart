@@ -1,5 +1,5 @@
 //
-//  CourseProgress.swift
+//  Progress.swift
 //  SampleChart
 //
 //  Created by Strazdin, Valentin on 31.10.2019.
@@ -8,17 +8,17 @@
 
 import Foundation
 
-public class CourseProgress: Decodable {
+public class Progress: Decodable {
     var startDate: Date?
     var endDate: Date?
-    var courseMaxScore: Int
-    var submittedExercises: [SubmittedExercise]
+    var maxValue: Int
+    var nodes: [Node]
     
     private enum CodingKeys: String, CodingKey {
         case startDate
         case endDate
-        case courseMaxScore
-        case submittedExercises
+        case maxValue
+        case Nodes
     }
     
     public required init(from decoder: Decoder) throws {
@@ -29,7 +29,7 @@ public class CourseProgress: Decodable {
         if let endDateString = try? container.decode(String.self, forKey: .endDate) {
             endDate = Date.date(from: endDateString)?.setTime(hour: 12, min: 0, sec: 0)
         }
-        courseMaxScore = try container.decode(Int.self, forKey: .courseMaxScore)
-        submittedExercises = (try? container.decode([SubmittedExercise].self, forKey: .submittedExercises)) ?? []
+        maxValue = try container.decode(Int.self, forKey: .maxValue)
+        nodes = (try? container.decode([Node].self, forKey: .Nodes)) ?? []
     }
 }

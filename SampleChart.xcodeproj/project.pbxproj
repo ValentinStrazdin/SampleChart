@@ -19,12 +19,12 @@
 		818C21A7236AEA6100773450 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 818C21A6236AEA6100773450 /* Assets.xcassets */; };
 		818C21AA236AEA6100773450 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 818C21A8236AEA6100773450 /* LaunchScreen.storyboard */; };
 		818C21B2236AF72D00773450 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818C21B1236AF72D00773450 /* Response.swift */; };
-		818C21B7236AFDA600773450 /* CourseProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818C21B6236AFDA600773450 /* CourseProgress.swift */; };
-		818C21B9236AFDFD00773450 /* SubmittedExercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818C21B8236AFDFD00773450 /* SubmittedExercise.swift */; };
+		818C21B7236AFDA600773450 /* Progress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818C21B6236AFDA600773450 /* Progress.swift */; };
+		818C21B9236AFDFD00773450 /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818C21B8236AFDFD00773450 /* Node.swift */; };
 		818C21BB236AFF6300773450 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818C21BA236AFF6300773450 /* Constants.swift */; };
 		818C21BD236AFF9C00773450 /* Date+Formatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818C21BC236AFF9C00773450 /* Date+Formatting.swift */; };
 		818C21BF236B082100773450 /* UnwrapError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818C21BE236B082100773450 /* UnwrapError.swift */; };
-		818C21C1236B08C600773450 /* CourseProgress.json in Resources */ = {isa = PBXBuildFile; fileRef = 818C21C0236B08C600773450 /* CourseProgress.json */; };
+		818C21C1236B08C600773450 /* Progress.json in Resources */ = {isa = PBXBuildFile; fileRef = 818C21C0236B08C600773450 /* Progress.json */; };
 		818C21C5236C480100773450 /* Array+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818C21C4236C480100773450 /* Array+Extensions.swift */; };
 /* End PBXBuildFile section */
 
@@ -43,12 +43,12 @@
 		818C21A9236AEA6100773450 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		818C21AB236AEA6100773450 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		818C21B1236AF72D00773450 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
-		818C21B6236AFDA600773450 /* CourseProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseProgress.swift; sourceTree = "<group>"; };
-		818C21B8236AFDFD00773450 /* SubmittedExercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmittedExercise.swift; sourceTree = "<group>"; };
+		818C21B6236AFDA600773450 /* Progress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Progress.swift; sourceTree = "<group>"; };
+		818C21B8236AFDFD00773450 /* Node.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
 		818C21BA236AFF6300773450 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		818C21BC236AFF9C00773450 /* Date+Formatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Formatting.swift"; sourceTree = "<group>"; };
 		818C21BE236B082100773450 /* UnwrapError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnwrapError.swift; sourceTree = "<group>"; };
-		818C21C0236B08C600773450 /* CourseProgress.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = CourseProgress.json; sourceTree = "<group>"; };
+		818C21C0236B08C600773450 /* Progress.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Progress.json; sourceTree = "<group>"; };
 		818C21C4236C480100773450 /* Array+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Extensions.swift"; sourceTree = "<group>"; };
 		87689570977C1DD7A98EFA11 /* Pods-SampleChart.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleChart.release.xcconfig"; path = "Target Support Files/Pods-SampleChart/Pods-SampleChart.release.xcconfig"; sourceTree = "<group>"; };
 		FA5B3E155ECAAA52D5ED8FA7 /* Pods_SampleChart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SampleChart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -78,10 +78,10 @@
 			isa = PBXGroup;
 			children = (
 				818C21B1236AF72D00773450 /* Response.swift */,
-				818C21B6236AFDA600773450 /* CourseProgress.swift */,
-				818C21B8236AFDFD00773450 /* SubmittedExercise.swift */,
+				818C21B6236AFDA600773450 /* Progress.swift */,
+				818C21B8236AFDFD00773450 /* Node.swift */,
 				818C21BA236AFF6300773450 /* Constants.swift */,
-				818C21C0236B08C600773450 /* CourseProgress.json */,
+				818C21C0236B08C600773450 /* Progress.json */,
 				818C21C4236C480100773450 /* Array+Extensions.swift */,
 			);
 			path = "Model objects";
@@ -204,7 +204,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				818C21AA236AEA6100773450 /* LaunchScreen.storyboard in Resources */,
-				818C21C1236B08C600773450 /* CourseProgress.json in Resources */,
+				818C21C1236B08C600773450 /* Progress.json in Resources */,
 				818C21A7236AEA6100773450 /* Assets.xcassets in Resources */,
 				818C21A5236AEA5D00773450 /* Main.storyboard in Resources */,
 			);
@@ -267,9 +267,9 @@
 				818C21BD236AFF9C00773450 /* Date+Formatting.swift in Sources */,
 				818C219E236AEA5D00773450 /* AppDelegate.swift in Sources */,
 				817077D223B1067F00159EAB /* PlotViewModel.swift in Sources */,
-				818C21B9236AFDFD00773450 /* SubmittedExercise.swift in Sources */,
+				818C21B9236AFDFD00773450 /* Node.swift in Sources */,
 				818C21C5236C480100773450 /* Array+Extensions.swift in Sources */,
-				818C21B7236AFDA600773450 /* CourseProgress.swift in Sources */,
+				818C21B7236AFDA600773450 /* Progress.swift in Sources */,
 				818C21BB236AFF6300773450 /* Constants.swift in Sources */,
 				817077D423B106A200159EAB /* MBPlotConfig.swift in Sources */,
 				817077D623B106C400159EAB /* PlotLineViewModel.swift in Sources */,
