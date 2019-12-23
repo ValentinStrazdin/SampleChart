@@ -14,23 +14,10 @@ extension Date {
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = Strings.apiDateFormat
         dateFormatter.locale = Locale(identifier: Strings.apiDateFormatterLocale)
-//        dateFormatter.timeZone = TimeZone(abbreviation: "UTC")
         dateFormatter.timeZone = TimeZone.current
         return dateFormatter.date(from: apiString)
     }
 
-    func UTCToLocal(date:String) -> String {
-        let dateFormatter = DateFormatter()
-        dateFormatter.dateFormat = "H:mm:ss"
-        dateFormatter.timeZone = TimeZone(abbreviation: "UTC")
-
-        let dt = dateFormatter.date(from: date)
-        dateFormatter.timeZone = TimeZone.current
-        dateFormatter.dateFormat = "h:mm a"
-
-        return dateFormatter.string(from: dt!)
-    }
-    
     public func setTime(hour: Int, min: Int, sec: Int) -> Date? {
         let x: Set<Calendar.Component> = [.era, .year, .month, .day, .hour, .minute, .second]
         let cal = Calendar.current
@@ -42,4 +29,10 @@ extension Date {
         return cal.date(from: components)
     }
     
+    /// Here we are calculating day before current date
+    var dayBefore: Date? {
+        var date = DateComponents()
+        date.day = -1
+        return Calendar.current.date(byAdding: date, to: self)
+    }
 }

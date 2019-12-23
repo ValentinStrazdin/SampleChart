@@ -1,0 +1,23 @@
+{
+    "data": {
+        "startDate": "2019-12-02",
+        "endDate": "2020-01-12",
+        "courseMaxScore": 414,
+        "submittedExercises": [
+            { "submissionDate": "2019-12-02", "maxScore": 3 },
+            { "submissionDate": "2019-12-03", "maxScore": 10 },
+            { "submissionDate": "2019-12-04", "maxScore": 6 },
+            { "submissionDate": "2019-12-06", "maxScore": 8 },
+            { "submissionDate": "2019-12-07", "maxScore": 9 },
+            { "submissionDate": "2019-12-08", "maxScore": 5 },
+            { "submissionDate": "2019-12-09", "maxScore": 10 },
+            { "submissionDate": "2019-12-10", "maxScore": 10 },
+            { "submissionDate": "2019-12-11", "maxScore": 8 },
+            { "submissionDate": "2019-12-12", "maxScore": 5 },
+            { "submissionDate": "2019-12-14", "maxScore": 8 },
+            { "submissionDate": "2019-12-15", "maxScore": 10 },
+            { "submissionDate": "2019-12-16", "maxScore": 10 },
+            { "submissionDate": "2019-12-17", "maxScore": 6 },
+            { "submissionDate": "2019-12-19", "maxScore": 9 }]
+    }
+}

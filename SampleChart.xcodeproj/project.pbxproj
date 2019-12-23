@@ -8,25 +8,33 @@
 
 /* Begin PBXBuildFile section */
 		1019CAF4B828199FF21774A3 /* Pods_SampleChart.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA5B3E155ECAAA52D5ED8FA7 /* Pods_SampleChart.framework */; };
+		817077D223B1067F00159EAB /* PlotViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817077D123B1067F00159EAB /* PlotViewModel.swift */; };
+		817077D423B106A200159EAB /* MBPlotConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817077D323B106A200159EAB /* MBPlotConfig.swift */; };
+		817077D623B106C400159EAB /* PlotLineViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817077D523B106C400159EAB /* PlotLineViewModel.swift */; };
+		817077DB23B107FA00159EAB /* MBPlotTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817077D923B107FA00159EAB /* MBPlotTheme.swift */; };
+		817077DC23B107FA00159EAB /* CPTMutableLineStyle+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817077DA23B107FA00159EAB /* CPTMutableLineStyle+Extension.swift */; };
 		818C219E236AEA5D00773450 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818C219D236AEA5D00773450 /* AppDelegate.swift */; };
 		818C21A2236AEA5D00773450 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818C21A1236AEA5D00773450 /* ViewController.swift */; };
 		818C21A5236AEA5D00773450 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 818C21A3236AEA5D00773450 /* Main.storyboard */; };
 		818C21A7236AEA6100773450 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 818C21A6236AEA6100773450 /* Assets.xcassets */; };
 		818C21AA236AEA6100773450 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 818C21A8236AEA6100773450 /* LaunchScreen.storyboard */; };
 		818C21B2236AF72D00773450 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818C21B1236AF72D00773450 /* Response.swift */; };
-		818C21B5236AFD7E00773450 /* ResponseItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818C21B4236AFD7E00773450 /* ResponseItems.swift */; };
 		818C21B7236AFDA600773450 /* CourseProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818C21B6236AFDA600773450 /* CourseProgress.swift */; };
-		818C21B9236AFDFD00773450 /* CompletedExercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818C21B8236AFDFD00773450 /* CompletedExercise.swift */; };
+		818C21B9236AFDFD00773450 /* SubmittedExercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818C21B8236AFDFD00773450 /* SubmittedExercise.swift */; };
 		818C21BB236AFF6300773450 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818C21BA236AFF6300773450 /* Constants.swift */; };
 		818C21BD236AFF9C00773450 /* Date+Formatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818C21BC236AFF9C00773450 /* Date+Formatting.swift */; };
 		818C21BF236B082100773450 /* UnwrapError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818C21BE236B082100773450 /* UnwrapError.swift */; };
 		818C21C1236B08C600773450 /* CourseProgress.json in Resources */ = {isa = PBXBuildFile; fileRef = 818C21C0236B08C600773450 /* CourseProgress.json */; };
-		818C21C3236C463000773450 /* CourseProgressViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818C21C2236C463000773450 /* CourseProgressViewModel.swift */; };
 		818C21C5236C480100773450 /* Array+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818C21C4236C480100773450 /* Array+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7CE2B935E6C338A0E4F570BB /* Pods-SampleChart.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleChart.debug.xcconfig"; path = "Target Support Files/Pods-SampleChart/Pods-SampleChart.debug.xcconfig"; sourceTree = "<group>"; };
+		817077D123B1067F00159EAB /* PlotViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlotViewModel.swift; sourceTree = "<group>"; };
+		817077D323B106A200159EAB /* MBPlotConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MBPlotConfig.swift; sourceTree = "<group>"; };
+		817077D523B106C400159EAB /* PlotLineViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlotLineViewModel.swift; sourceTree = "<group>"; };
+		817077D923B107FA00159EAB /* MBPlotTheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MBPlotTheme.swift; sourceTree = "<group>"; };
+		817077DA23B107FA00159EAB /* CPTMutableLineStyle+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CPTMutableLineStyle+Extension.swift"; sourceTree = "<group>"; };
 		818C219A236AEA5D00773450 /* SampleChart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleChart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		818C219D236AEA5D00773450 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		818C21A1236AEA5D00773450 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,14 +43,12 @@
 		818C21A9236AEA6100773450 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		818C21AB236AEA6100773450 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		818C21B1236AF72D00773450 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
-		818C21B4236AFD7E00773450 /* ResponseItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseItems.swift; sourceTree = "<group>"; };
 		818C21B6236AFDA600773450 /* CourseProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseProgress.swift; sourceTree = "<group>"; };
-		818C21B8236AFDFD00773450 /* CompletedExercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompletedExercise.swift; sourceTree = "<group>"; };
+		818C21B8236AFDFD00773450 /* SubmittedExercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmittedExercise.swift; sourceTree = "<group>"; };
 		818C21BA236AFF6300773450 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		818C21BC236AFF9C00773450 /* Date+Formatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Formatting.swift"; sourceTree = "<group>"; };
 		818C21BE236B082100773450 /* UnwrapError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnwrapError.swift; sourceTree = "<group>"; };
 		818C21C0236B08C600773450 /* CourseProgress.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = CourseProgress.json; sourceTree = "<group>"; };
-		818C21C2236C463000773450 /* CourseProgressViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseProgressViewModel.swift; sourceTree = "<group>"; };
 		818C21C4236C480100773450 /* Array+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Extensions.swift"; sourceTree = "<group>"; };
 		87689570977C1DD7A98EFA11 /* Pods-SampleChart.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleChart.release.xcconfig"; path = "Target Support Files/Pods-SampleChart/Pods-SampleChart.release.xcconfig"; sourceTree = "<group>"; };
 		FA5B3E155ECAAA52D5ED8FA7 /* Pods_SampleChart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SampleChart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -68,6 +74,31 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		817077D723B1071400159EAB /* Model objects */ = {
+			isa = PBXGroup;
+			children = (
+				818C21B1236AF72D00773450 /* Response.swift */,
+				818C21B6236AFDA600773450 /* CourseProgress.swift */,
+				818C21B8236AFDFD00773450 /* SubmittedExercise.swift */,
+				818C21BA236AFF6300773450 /* Constants.swift */,
+				818C21C0236B08C600773450 /* CourseProgress.json */,
+				818C21C4236C480100773450 /* Array+Extensions.swift */,
+			);
+			path = "Model objects";
+			sourceTree = "<group>";
+		};
+		817077D823B1071E00159EAB /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				817077DA23B107FA00159EAB /* CPTMutableLineStyle+Extension.swift */,
+				817077D323B106A200159EAB /* MBPlotConfig.swift */,
+				817077D923B107FA00159EAB /* MBPlotTheme.swift */,
+				817077D123B1067F00159EAB /* PlotViewModel.swift */,
+				817077D523B106C400159EAB /* PlotLineViewModel.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
 		818C2191236AEA5D00773450 = {
 			isa = PBXGroup;
 			children = (
@@ -89,22 +120,16 @@
 		818C219C236AEA5D00773450 /* SampleChart */ = {
 			isa = PBXGroup;
 			children = (
+				817077D823B1071E00159EAB /* View Models */,
+				817077D723B1071400159EAB /* Model objects */,
 				818C219D236AEA5D00773450 /* AppDelegate.swift */,
 				818C21A1236AEA5D00773450 /* ViewController.swift */,
 				818C21A3236AEA5D00773450 /* Main.storyboard */,
 				818C21A6236AEA6100773450 /* Assets.xcassets */,
 				818C21A8236AEA6100773450 /* LaunchScreen.storyboard */,
 				818C21AB236AEA6100773450 /* Info.plist */,
-				818C21B1236AF72D00773450 /* Response.swift */,
-				818C21B4236AFD7E00773450 /* ResponseItems.swift */,
-				818C21B6236AFDA600773450 /* CourseProgress.swift */,
-				818C21C2236C463000773450 /* CourseProgressViewModel.swift */,
-				818C21B8236AFDFD00773450 /* CompletedExercise.swift */,
-				818C21BA236AFF6300773450 /* Constants.swift */,
 				818C21BC236AFF9C00773450 /* Date+Formatting.swift */,
 				818C21BE236B082100773450 /* UnwrapError.swift */,
-				818C21C0236B08C600773450 /* CourseProgress.json */,
-				818C21C4236C480100773450 /* Array+Extensions.swift */,
 			);
 			path = SampleChart;
 			sourceTree = "<group>";
@@ -236,15 +261,18 @@
 			files = (
 				818C21B2236AF72D00773450 /* Response.swift in Sources */,
 				818C21BF236B082100773450 /* UnwrapError.swift in Sources */,
+				817077DB23B107FA00159EAB /* MBPlotTheme.swift in Sources */,
 				818C21A2236AEA5D00773450 /* ViewController.swift in Sources */,
+				817077DC23B107FA00159EAB /* CPTMutableLineStyle+Extension.swift in Sources */,
 				818C21BD236AFF9C00773450 /* Date+Formatting.swift in Sources */,
 				818C219E236AEA5D00773450 /* AppDelegate.swift in Sources */,
-				818C21C3236C463000773450 /* CourseProgressViewModel.swift in Sources */,
-				818C21B9236AFDFD00773450 /* CompletedExercise.swift in Sources */,
+				817077D223B1067F00159EAB /* PlotViewModel.swift in Sources */,
+				818C21B9236AFDFD00773450 /* SubmittedExercise.swift in Sources */,
 				818C21C5236C480100773450 /* Array+Extensions.swift in Sources */,
-				818C21B5236AFD7E00773450 /* ResponseItems.swift in Sources */,
 				818C21B7236AFDA600773450 /* CourseProgress.swift in Sources */,
 				818C21BB236AFF6300773450 /* Constants.swift in Sources */,
+				817077D423B106A200159EAB /* MBPlotConfig.swift in Sources */,
+				817077D623B106C400159EAB /* PlotLineViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

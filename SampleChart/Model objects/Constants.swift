@@ -10,6 +10,6 @@ import Foundation
 
 struct Strings {
     static let apiDateFormatterLocale = "en_US_POSIX"
-    static let apiDateFormat = "yyyy-MM-dd'T'HH:mm:ssZ"
+    static let apiDateFormat = "yyyy-MM-dd"
     static let plotDateFormat = "dd.MM"
 }
